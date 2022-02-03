@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contact.php">
+   <!-- --> <link rel="stylesheet" href="contact.php">
     <title>Contact Form</title>
 </head>
 <body>
+    <main>
+        <p>Send Email</p>
+        <form  action="POST"  data-netlify="true">
+            <input type="text" id="name" name="name" placeholder="Full Name">
+            <input type="email" id="email" name="mail" placeholder="Your Email">
+            <textarea name="message"  placeholder= "message" id="message" cols="30" rows="10"></textarea>
+            <button type="submit" name="submit"></button>
+        </form>
+    </main>
     
 </body>
 </html>
